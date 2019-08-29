@@ -1,0 +1,100 @@
+body{
+  background-color: #FFFFFF;
+  color: #00028c;
+  font-family: 'PT Serif', serif;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+h1, h2{
+font-family: 'Source Serif Pro', serif;
+}
+
+.btn-red{
+  color: #49beb7;
+  text-decoration: none;
+}
+
+.btn-red:hover {
+  color: #FFFF;
+  background: #0ECAE6;
+  transition: all 1s ease-out;
+
+}
+
+.btn-red{
+  border: solid 1px;
+  padding: 6px 14px;
+  background-color: #FF3535 ;
+  color: white;
+  border-radius: 8px;
+}
+.list-des-resaux{
+  list-style: none;
+  padding: 0;
+}
+
+.resaux{
+  color: #226089;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+.resaux:hover{
+  color: #1d1919;
+  transition: all 1s ease-out;
+
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card {
+  background: #eaf5ff;
+  padding: 40px;
+  border: 1px solid lightgrey;
+  margin: 5%;
+}
+
+.card{
+  border-radius: 5px;
+  box-shadow: 1px 1px 9px 2px lightblue;
+}
+
+img{
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+
+.list-des-resaux > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
